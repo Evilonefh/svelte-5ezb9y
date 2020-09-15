@@ -1,6 +1,6 @@
 <p>Count: {count}</p>
 <button on:click='set({ count: count + 2 })'>+2</button>
-
+<button on:click='set({ count: count + 1 })'>+1</button>
 <!-- Default data -->
 <script>
   export default {
@@ -17,4 +17,9 @@
   p, button {
     font-family: Lato;
   }
+  
+  button {
+    background-color: #6A0888;
+  }
+
 </style>
